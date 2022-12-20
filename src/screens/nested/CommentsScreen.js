@@ -1,19 +1,19 @@
 import React from "react";
 import { StyleSheet, View, Text } from 'react-native';
 
-const CreatePostsScreen = () => {
+const CommentScreen = () => {
     
-    return (<View style={styled.container}>
-        <Text>CreatePostsScreen</Text>
+    return (<View style={styles.container}>
+        <Text>CommentScreen</Text>
     </View>)
 };
 
-const styled = StyleSheet.create({
+const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-    },
+    }
 })
 
-export default CreatePostsScreen;
+export default CommentScreen;
